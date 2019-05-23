@@ -79,6 +79,32 @@
       <element xmi:type="uml:Class" href="FreeCell.uml#_EoxN4H0-EemV1OdO-Vun2g"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eo1fUX0-EemV1OdO-Vun2g" x="340" y="280"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_whPpgH0-EemV1OdO-Vun2g" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_whQQkH0-EemV1OdO-Vun2g" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_whQQkX0-EemV1OdO-Vun2g" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_whQQkn0-EemV1OdO-Vun2g" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_whQQk30-EemV1OdO-Vun2g" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_whQQlH0-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_whQQlX0-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_whQQln0-EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whQQl30-EemV1OdO-Vun2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_whQQmH0-EemV1OdO-Vun2g" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_whQQmX0-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_whQQmn0-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_whQQm30-EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whQQnH0-EemV1OdO-Vun2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_whQQnX0-EemV1OdO-Vun2g" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_whQQnn0-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_whQQn30-EemV1OdO-Vun2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_whQQoH0-EemV1OdO-Vun2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whQQoX0-EemV1OdO-Vun2g"/>
+      </children>
+      <element xmi:type="uml:Class" href="FreeCell.uml#_whMmMH0-EemV1OdO-Vun2g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whPpgX0-EemV1OdO-Vun2g" x="540" y="280"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_BZirEX05Eemxkd7VRJPIBg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BZirEn05Eemxkd7VRJPIBg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_BZirE305Eemxkd7VRJPIBg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
@@ -114,6 +140,19 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJcfUn0-EemV1OdO-Vun2g" points="[540, 240, -643984, -643984]$[360, 184, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IJ7ngH0-EemV1OdO-Vun2g" id="(0.3157894736842105,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IJ7ngX0-EemV1OdO-Vun2g" id="(0.6,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2xRdIH0-EemV1OdO-Vun2g" type="InterfaceRealization_Edge" source="_whPpgH0-EemV1OdO-Vun2g" target="_hHDlsH05Eemxkd7VRJPIBg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2xSEMH0-EemV1OdO-Vun2g" type="InterfaceRealization_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2xSEMX0-EemV1OdO-Vun2g" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2xSEMn0-EemV1OdO-Vun2g" type="InterfaceRealization_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2xSEM30-EemV1OdO-Vun2g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2xRdIX0-EemV1OdO-Vun2g"/>
+      <element xmi:type="uml:InterfaceRealization" href="FreeCell.uml#_2xCMkH0-EemV1OdO-Vun2g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2xRdIn0-EemV1OdO-Vun2g" points="[640, 280, -643984, -643984]$[380, 184, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2x69YH0-EemV1OdO-Vun2g" id="(0.6024096385542169,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2x7kcH0-EemV1OdO-Vun2g" id="(0.8,1.0)"/>
     </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_KwVbUH05Eemxkd7VRJPIBg" name="Command" currentRowAxisProvider="_KwWCYX05Eemxkd7VRJPIBg" currentColumnAxisProvider="_KwVbUX05Eemxkd7VRJPIBg" tableKindId="org.eclipse.papyrus.uml.table.classTree">
