@@ -77,7 +77,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eo2tfX0-EemV1OdO-Vun2g"/>
       </children>
       <element xmi:type="uml:Class" href="FreeCell.uml#_EoxN4H0-EemV1OdO-Vun2g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eo1fUX0-EemV1OdO-Vun2g" x="320" y="340"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eo1fUX0-EemV1OdO-Vun2g" x="240" y="340"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_whPpgH0-EemV1OdO-Vun2g" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_whQQkH0-EemV1OdO-Vun2g" type="Class_NameLabel"/>
@@ -103,7 +103,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whQQoX0-EemV1OdO-Vun2g"/>
       </children>
       <element xmi:type="uml:Class" href="FreeCell.uml#_whMmMH0-EemV1OdO-Vun2g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whPpgX0-EemV1OdO-Vun2g" x="540" y="340"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_whPpgX0-EemV1OdO-Vun2g" x="460" y="340"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_BZirEX05Eemxkd7VRJPIBg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BZirEn05Eemxkd7VRJPIBg"/>
@@ -137,7 +137,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_PCo50X1AEemV1OdO-Vun2g"/>
       <element xmi:type="uml:InterfaceRealization" href="FreeCell.uml#_PChlEH1AEemV1OdO-Vun2g"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PCo50n1AEemV1OdO-Vun2g" points="[420, 340, -643984, -643984]$[420, 260, -643984, -643984]$[340, 260, -643984, -643984]$[340, 184, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PCo50n1AEemV1OdO-Vun2g" points="[420, 340, -643984, -643984]$[340, 260, -643984, -643984]$[340, 184, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PDAtQH1AEemV1OdO-Vun2g" id="(0.5263157894736842,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PDBUUH1AEemV1OdO-Vun2g" id="(0.4,1.0)"/>
     </edges>
@@ -152,7 +152,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_QyOBEX1AEemV1OdO-Vun2g"/>
       <element xmi:type="uml:InterfaceRealization" href="FreeCell.uml#_QyCa4H1AEemV1OdO-Vun2g"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QyOBEn1AEemV1OdO-Vun2g" points="[620, 340, -643984, -643984]$[620, 260, -643984, -643984]$[340, 260, -643984, -643984]$[340, 184, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QyOBEn1AEemV1OdO-Vun2g" points="[540, 340, -643984, -643984]$[540, 260, -643984, -643984]$[340, 260, -643984, -643984]$[340, 184, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QymbkH1AEemV1OdO-Vun2g" id="(0.4819277108433735,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QymbkX1AEemV1OdO-Vun2g" id="(0.4,1.0)"/>
     </edges>
