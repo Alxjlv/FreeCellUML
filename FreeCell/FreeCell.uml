@@ -7,4 +7,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_uDXjwH08EemV1OdO-Vun2g" name="QuitCommand">
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_00QowH08EemV1OdO-Vun2g" client="_uDXjwH08EemV1OdO-Vun2g" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EoxN4H0-EemV1OdO-Vun2g" name="CascadeToCascadeCommand">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_IJMnsH0-EemV1OdO-Vun2g" client="_EoxN4H0-EemV1OdO-Vun2g" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
+  </packagedElement>
 </uml:Model>
