@@ -13,4 +13,9 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_whMmMH0-EemV1OdO-Vun2g" name="CascadeToCellCommand">
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QyCa4H1AEemV1OdO-Vun2g" client="_whMmMH0-EemV1OdO-Vun2g" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ytJSkH39EemV1OdO-Vun2g" name="HelpCommand"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fyH9kH3-EemV1OdO-Vun2g" name="CellToCascadeCommand"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-1kngH3-EemV1OdO-Vun2g" name="SaveGameCOmmand"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JRvEYH3_EemV1OdO-Vun2g" name="CellToFoundationCommand"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LJDyYH3_EemV1OdO-Vun2g" name="FoundationToCellCommand"/>
 </uml:Model>
