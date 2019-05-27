@@ -70,10 +70,6 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zpoKEH7bEemZrvTI3X01KA" name="String readFromKeyboard"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_jGBqUH7aEemZrvTI3X01KA" name="ASCIIBoard">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OfAREH7cEemZrvTI3X01KA" name="_deck" visibility="private" type="_n24KMH7aEemZrvTI3X01KA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_con3IH7cEemZrvTI3X01KA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_coq6cH7cEemZrvTI3X01KA" value="1"/>
-    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_TeR08X-AEemT9tHn0FJ7Rg" name="card" type="_FI_ugH7dEemZrvTI3X01KA" aggregation="shared" association="_TeP_wH-AEemT9tHn0FJ7Rg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TeScAH-AEemT9tHn0FJ7Rg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TeTqIH-AEemT9tHn0FJ7Rg" value="1"/>
