@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HeZbUIBsEem4lrPaLPmELQ" name="Design patterns">
-  <ownedComment xmi:type="uml:Comment" xmi:id="_v8WhwIB1Eem4lrPaLPmELQ" annotatedElement="_i4duUIBtEem4lrPaLPmELQ">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HeZbUIBsEem4lrPaLPmELQ" name="Design patterns">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_v8WhwIB1Eem4lrPaLPmELQ" annotatedElement="_HeZbUIBsEem4lrPaLPmELQ">
     <body>Contructor performs initialisation&#xD;
 getters provide a copy</body>
   </ownedComment>
@@ -17,10 +17,16 @@ getters provide a copy</body>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_EYAKwIBvEem4lrPaLPmELQ" name="void Deck" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_fcHiQIB4Eem4lrPaLPmELQ" name="Deck getDeck"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_fI4eMIBtEem4lrPaLPmELQ" name="KeyboardInput"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fI4eMIBtEem4lrPaLPmELQ" name="KeyboardInput">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_abW2wIB7Eem4lrPaLPmELQ" name="_input" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DG6YgIB-Eem4lrPaLPmELQ" client="_fI4eMIBtEem4lrPaLPmELQ" supplier="_C01RYIB7Eem4lrPaLPmELQ" contract="_C01RYIB7Eem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HNv88IB8Eem4lrPaLPmELQ" name="readFromKeyboard" isStatic="true"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_h2pE8IBtEem4lrPaLPmELQ" name="Command" isAbstract="true">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_ftScsIB2Eem4lrPaLPmELQ" name="boolean engage" isAbstract="true"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_8GXLEIB2Eem4lrPaLPmELQ" name="boolean engageChild"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ftScsIB2Eem4lrPaLPmELQ" name="boolean engage" visibility="protected" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8GXLEIB2Eem4lrPaLPmELQ" name="final boolean engageChild"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_i4duUIBtEem4lrPaLPmELQ" name="final Card">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_3Ghe4IB0Eem4lrPaLPmELQ" name="final _suit" visibility="private" type="_DEqE0IB1Eem4lrPaLPmELQ"/>
@@ -43,7 +49,7 @@ getters provide a copy</body>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_0oWr8IB3Eem4lrPaLPmELQ" name="boolean engage"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_oRKs0IB3Eem4lrPaLPmELQ" name="CascadeToCascadeCommand">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_zORTkIB3Eem4lrPaLPmELQ" name="boolean engage"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zORTkIB3Eem4lrPaLPmELQ" name="boolean engage" visibility="public"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_xueUwIB3Eem4lrPaLPmELQ" client="_oRKs0IB3Eem4lrPaLPmELQ" supplier="_h2pE8IBtEem4lrPaLPmELQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_ByH-kIB4Eem4lrPaLPmELQ" name="Deck">
@@ -53,5 +59,34 @@ getters provide a copy</body>
   <packagedElement xmi:type="uml:Class" xmi:id="_ByH-koB4Eem4lrPaLPmELQ" name="ASCIIBoard">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ByH-k4B4Eem4lrPaLPmELQ" name="void ASCIIBoard" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_MG2WsIB4Eem4lrPaLPmELQ" name="void ASCIIBoard"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UylF0IB6Eem4lrPaLPmELQ" name="CommandFactory">
+    <generalization xmi:type="uml:Generalization" xmi:id="_EqMwMIB-Eem4lrPaLPmELQ" general="_5aOYIIB6Eem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bv2IAIB8Eem4lrPaLPmELQ" name="Command getUserCommand"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5aOYIIB6Eem4lrPaLPmELQ" name="Subject" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_08orIoB9Eem4lrPaLPmELQ" name="observer" type="_C01RYIB7Eem4lrPaLPmELQ" association="_08oEEIB9Eem4lrPaLPmELQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_08pSMIB9Eem4lrPaLPmELQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_08pSMYB9Eem4lrPaLPmELQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VYsOIIB7Eem4lrPaLPmELQ" name="attach"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tJbfcIB7Eem4lrPaLPmELQ" name="detach"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u-EF0IB7Eem4lrPaLPmELQ" name="notify"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C01RYIB7Eem4lrPaLPmELQ" name="Observer">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_weldYIB7Eem4lrPaLPmELQ" name="update"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__sNeIIB7Eem4lrPaLPmELQ" name="KeyboardInput">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L_XR0IB8Eem4lrPaLPmELQ" name="readFromKeyboard" isStatic="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AHVT4IB8Eem4lrPaLPmELQ" name="CommandFactory">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hla0QIB8Eem4lrPaLPmELQ" name="Command getUserCommand"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nQQ3MIB8Eem4lrPaLPmELQ" client="_AHVT4IB8Eem4lrPaLPmELQ" supplier="__sNeIIB7Eem4lrPaLPmELQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_08oEEIB9Eem4lrPaLPmELQ" memberEnd="_08orIoB9Eem4lrPaLPmELQ _08pSMoB9Eem4lrPaLPmELQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_08orIIB9Eem4lrPaLPmELQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_08orIYB9Eem4lrPaLPmELQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_08pSMoB9Eem4lrPaLPmELQ" name="subject" type="_5aOYIIB6Eem4lrPaLPmELQ" association="_08oEEIB9Eem4lrPaLPmELQ"/>
   </packagedElement>
 </uml:Model>
