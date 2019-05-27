@@ -65,7 +65,6 @@
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CuyE8H7UEemZrvTI3X01KA" client="_PnxbgH7SEemZrvTI3X01KA" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_-QoMsH7VEemZrvTI3X01KA" name="boolean engage"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_hvlVcH7SEemZrvTI3X01KA" name="List&lt;Command>"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zt778H7TEemZrvTI3X01KA" name="List&lt;Card>"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_XQ_9EH7aEemZrvTI3X01KA" name="KeyboardInput">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zpoKEH7bEemZrvTI3X01KA" name="String readFromKeyboard"/>
@@ -79,6 +78,18 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TeScAH-AEemT9tHn0FJ7Rg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TeTqIH-AEemT9tHn0FJ7Rg" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Kl8JIIBuEem4lrPaLPmELQ" name="_board" visibility="private" type="_FI_ugH7dEemZrvTI3X01KA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MUc5YIBuEem4lrPaLPmELQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MUjnEIBuEem4lrPaLPmELQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PAu5cIBuEem4lrPaLPmELQ" name="_foundations" visibility="private" type="_FI_ugH7dEemZrvTI3X01KA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VSLCUIBuEem4lrPaLPmELQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VSP60IBuEem4lrPaLPmELQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X1WwwIBuEem4lrPaLPmELQ" name="_cells" visibility="private" type="_FI_ugH7dEemZrvTI3X01KA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a0314IBuEem4lrPaLPmELQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a098gIBuEem4lrPaLPmELQ" value="*"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_K0KXAH7cEemZrvTI3X01KA" name="void displayBoard"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lJmroH7aEemZrvTI3X01KA" name="FreeCell">
@@ -91,6 +102,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q34DgX9-EemT9tHn0FJ7Rg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q34qkH9-EemT9tHn0FJ7Rg" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fiusIIBuEem4lrPaLPmELQ" name="_deck" visibility="private" type="_n24KMH7aEemZrvTI3X01KA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_n24KMH7aEemZrvTI3X01KA" name="Deck">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_6ksCQH7cEemZrvTI3X01KA" name="_deck" visibility="private" type="_zt778H7TEemZrvTI3X01KA">

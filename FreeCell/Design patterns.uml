@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HeZbUIBsEem4lrPaLPmELQ" name="Design patterns">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_v8WhwIB1Eem4lrPaLPmELQ" annotatedElement="_i4duUIBtEem4lrPaLPmELQ">
+    <body>Contructor performs initialisation&#xD;
+getters provide a copy</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Ho6CMIBsEem4lrPaLPmELQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MXpMwIBtEem4lrPaLPmELQ" name="ASCIIBoard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_P3wcgIB4Eem4lrPaLPmELQ" name="_board" visibility="private" type="_MXpMwIBtEem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ykyn0IBuEem4lrPaLPmELQ" name="void ASCIIBoard" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YhBYYIB4Eem4lrPaLPmELQ" name="ASCIIBoard getBoard"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_P8WCkIBtEem4lrPaLPmELQ" name="Deck">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UCglsIB4Eem4lrPaLPmELQ" name="_deck" visibility="private" type="_P8WCkIBtEem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EYAKwIBvEem4lrPaLPmELQ" name="void Deck" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fcHiQIB4Eem4lrPaLPmELQ" name="Deck getDeck"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fI4eMIBtEem4lrPaLPmELQ" name="KeyboardInput"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_h2pE8IBtEem4lrPaLPmELQ" name="Command" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ftScsIB2Eem4lrPaLPmELQ" name="boolean engage" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8GXLEIB2Eem4lrPaLPmELQ" name="boolean engageChild"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_i4duUIBtEem4lrPaLPmELQ" name="final Card">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3Ghe4IB0Eem4lrPaLPmELQ" name="final _suit" visibility="private" type="_DEqE0IB1Eem4lrPaLPmELQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ni6zcIB1Eem4lrPaLPmELQ" name="final _rank" visibility="private" type="_RAV8kIB1Eem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OkDq4IB2Eem4lrPaLPmELQ" name="void Card"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rB7HwIB4Eem4lrPaLPmELQ" name="getCard"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_DEqE0IB1Eem4lrPaLPmELQ" name="Suit"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_RAV8kIB1Eem4lrPaLPmELQ" name="Rank"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4d2BsIB1Eem4lrPaLPmELQ" name="Card">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9JdcQIB1Eem4lrPaLPmELQ" name="_suit" visibility="private" type="_DEqE0IB1Eem4lrPaLPmELQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CXEJkIB2Eem4lrPaLPmELQ" name="_rank" visibility="private" type="_RAV8kIB1Eem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TYlw4IB2Eem4lrPaLPmELQ" name="void Card"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_h3oNUIB2Eem4lrPaLPmELQ" name="Command">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mirAIIB2Eem4lrPaLPmELQ" name="boolean engage"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VxCZgIB3Eem4lrPaLPmELQ" name="CascadeToCascadeCommand">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_tx_REIB3Eem4lrPaLPmELQ" client="_VxCZgIB3Eem4lrPaLPmELQ" supplier="_h3oNUIB2Eem4lrPaLPmELQ" contract="_h3oNUIB2Eem4lrPaLPmELQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0oWr8IB3Eem4lrPaLPmELQ" name="boolean engage"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oRKs0IB3Eem4lrPaLPmELQ" name="CascadeToCascadeCommand">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zORTkIB3Eem4lrPaLPmELQ" name="boolean engage"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_xueUwIB3Eem4lrPaLPmELQ" client="_oRKs0IB3Eem4lrPaLPmELQ" supplier="_h2pE8IBtEem4lrPaLPmELQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ByH-kIB4Eem4lrPaLPmELQ" name="Deck">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ByH-kYB4Eem4lrPaLPmELQ" name="void Deck" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OAkRYIB4Eem4lrPaLPmELQ" name="void Deck"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ByH-koB4Eem4lrPaLPmELQ" name="ASCIIBoard">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ByH-k4B4Eem4lrPaLPmELQ" name="void ASCIIBoard" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MG2WsIB4Eem4lrPaLPmELQ" name="void ASCIIBoard"/>
+  </packagedElement>
+</uml:Model>
