@@ -36,7 +36,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MX2BGYBtEem4lrPaLPmELQ"/>
     </children>
     <element xmi:type="uml:Class" href="Design%20patterns.uml#_MXpMwIBtEem4lrPaLPmELQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MXzk0IBtEem4lrPaLPmELQ" x="460" y="640"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MXzk0IBtEem4lrPaLPmELQ" x="260" y="280"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_P8Zs8IBtEem4lrPaLPmELQ" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_P8Zs8oBtEem4lrPaLPmELQ" type="Class_NameLabel"/>
@@ -74,7 +74,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8aUEIBtEem4lrPaLPmELQ"/>
     </children>
     <element xmi:type="uml:Class" href="Design%20patterns.uml#_P8WCkIBtEem4lrPaLPmELQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8Zs8YBtEem4lrPaLPmELQ" x="460" y="220"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8Zs8YBtEem4lrPaLPmELQ" x="460" y="280"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_fI66cIBtEem4lrPaLPmELQ" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_fI7hgIBtEem4lrPaLPmELQ" type="Class_NameLabel"/>
@@ -347,7 +347,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByKa4YB4Eem4lrPaLPmELQ"/>
     </children>
     <element xmi:type="uml:Class" href="Design%20patterns.uml#_ByH-kIB4Eem4lrPaLPmELQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByJzwYB4Eem4lrPaLPmELQ" x="460" y="40"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByJzwYB4Eem4lrPaLPmELQ" x="460" y="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_ByLB4IB4Eem4lrPaLPmELQ" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_ByLB4oB4Eem4lrPaLPmELQ" type="Class_NameLabel"/>
@@ -377,7 +377,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByLo_4B4Eem4lrPaLPmELQ"/>
     </children>
     <element xmi:type="uml:Class" href="Design%20patterns.uml#_ByH-koB4Eem4lrPaLPmELQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByLB4YB4Eem4lrPaLPmELQ" x="460" y="460"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ByLB4YB4Eem4lrPaLPmELQ" x="260" y="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_UymT8IB6Eem4lrPaLPmELQ" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_UymT8oB6Eem4lrPaLPmELQ" type="Class_NameLabel"/>
