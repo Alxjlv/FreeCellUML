@@ -41,7 +41,7 @@
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_kPJn0H7VEemZrvTI3X01KA" client="_fyH9kH3-EemV1OdO-Vun2g" supplier="_hHBJcH05Eemxkd7VRJPIBg" contract="_hHBJcH05Eemxkd7VRJPIBg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_8SP0cH7VEemZrvTI3X01KA" name="boolean engage"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_-1kngH3-EemV1OdO-Vun2g" name="SaveGameCOmmand">
+  <packagedElement xmi:type="uml:Class" xmi:id="_-1kngH3-EemV1OdO-Vun2g" name="SaveGameCommand">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fmWpAH7bEemZrvTI3X01KA" name="_board" visibility="private" type="_jGBqUH7aEemZrvTI3X01KA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_it3vIH-BEemT9tHn0FJ7Rg" name="asciiboard" type="_jGBqUH7aEemZrvTI3X01KA" association="_it158H-BEemT9tHn0FJ7Rg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_it3vIX-BEemT9tHn0FJ7Rg"/>
